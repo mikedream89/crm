@@ -1,0 +1,54 @@
+[
+    {
+        "outputFile": "D:\\git\\crm_mikedream89\\intro-slider-lib\\build\\intermediates\\res\\merged\\release\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "D:\\git\\crm_mikedream89\\intro-slider-lib\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 227,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 375
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\data\\crm\\intro-slider-lib\\build\\intermediates\\res\\merged\\release\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "C:\\data\\crm\\intro-slider-lib\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 227,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 375
+                    }
+                }
+            }
+        ]
+    }
+]

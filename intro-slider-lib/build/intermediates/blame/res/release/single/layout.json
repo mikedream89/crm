@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\git\\crm_mikedream89\\intro-slider-lib\\build\\intermediates\\res\\merged\\release\\layout\\default_ui.xml",
+        "source": "D:\\git\\crm_mikedream89\\intro-slider-lib\\src\\main\\res\\layout\\default_ui.xml"
+    },
+    {
+        "merged": "D:\\git\\crm_mikedream89\\intro-slider-lib\\build\\intermediates\\res\\merged\\release\\layout\\slider_default_view.xml",
+        "source": "D:\\git\\crm_mikedream89\\intro-slider-lib\\src\\main\\res\\layout\\slider_default_view.xml"
+    },
+    {
+        "merged": "C:\\data\\crm\\intro-slider-lib\\build\\intermediates\\res\\merged\\release\\layout\\default_ui.xml",
+        "source": "C:\\data\\crm\\intro-slider-lib\\src\\main\\res\\layout\\default_ui.xml"
+    },
+    {
+        "merged": "C:\\data\\crm\\intro-slider-lib\\build\\intermediates\\res\\merged\\release\\layout\\slider_default_view.xml",
+        "source": "C:\\data\\crm\\intro-slider-lib\\src\\main\\res\\layout\\slider_default_view.xml"
+    }
+]

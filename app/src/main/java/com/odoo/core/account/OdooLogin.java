@@ -3,6 +3,7 @@ package com.odoo.core.account;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
@@ -37,6 +38,7 @@ import com.odoo.datas.OConstants;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 import javax.net.ssl.SSLPeerUnverifiedException;
 
@@ -66,6 +68,9 @@ public class OdooLogin extends ActionBarActivity implements View.OnClickListener
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
+
         setContentView(R.layout.base_login);
         Bundle extras = getIntent().getExtras();
         if (extras != null) {

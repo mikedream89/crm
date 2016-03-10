@@ -21,6 +21,7 @@ package com.odoo.addons.customers;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.res.Configuration;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
@@ -31,6 +32,7 @@ import android.support.v4.content.CursorLoader;
 import android.support.v4.content.Loader;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -63,6 +65,7 @@ import com.odoo.widgets.bottomsheet.BottomSheetListeners;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class Customers extends BaseFragment implements ISyncStatusObserverListener,
         LoaderManager.LoaderCallbacks<Cursor>, SwipeRefreshLayout.OnRefreshListener,
@@ -88,6 +91,7 @@ public class Customers extends BaseFragment implements ISyncStatusObserverListen
     @Override
     public View onCreateView(LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
+
         setHasOptionsMenu(true);
         setHasSyncStatusObserver(KEY, this, db());
         return inflater.inflate(R.layout.common_listview, container, false);
@@ -257,6 +261,7 @@ public class Customers extends BaseFragment implements ISyncStatusObserverListen
 
     @Override
     public void onRefresh() {
+        Log.i("", "mayongqin==="+inNetwork());
         if (inNetwork()) {
             parent().sync().requestSync(ResPartner.AUTHORITY);
             setSwipeRefreshing(true);
